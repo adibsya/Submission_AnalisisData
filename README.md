@@ -1,14 +1,22 @@
-# Cara Menjalankan Dashboard
+# Proyek Analisis Data Penyewaan Sepeda
 
-Dashboard ini menggunakan dataset Bike Sharing yang diolah menggunakan Streamlit.
-Untuk menjalankan dashboard ini, ikuti langkah-langkah berikut:
+Proyek ini bertujuan untuk menganalisis data penyewaan sepeda menggunakan dataset *Bike Sharing*. Analisis dilakukan untuk menjawab beberapa pertanyaan bisnis yang relevan, serta menyediakan visualisasi interaktif melalui dashboard berbasis **Streamlit**.
 
-1. Pastikan kamu telah menginstal semua library yang diperlukan. Gunakan perintah berikut untuk menginstal semua dependensi:
-   pip install -r requirements.txt
+---
 
-2. Setelah itu, jalankan script `dashboard.py` dengan perintah berikut:
-   streamlit run dashboard/dashboard.py
+## **1. Deskripsi Proyek**
+Proyek ini mencakup:
+- Analisis data penyewaan sepeda berdasarkan musim, kondisi cuaca, suhu, dan hari kerja/libur.
+- Pembuatan visualisasi data untuk menjawab pertanyaan bisnis.
+- Dashboard interaktif untuk eksplorasi data secara dinamis.
 
-3. Dashboard akan terbuka di browser, dan kamu bisa berinteraksi dengan berbagai filter yang telah disediakan.
+---
 
-4. Dataset yang digunakan bisa ditemukan di dalam folder `data/`.
+## **2. Pertanyaan Bisnis**
+1. Bagaimana pengaruh kondisi cuaca terhadap jumlah penyewaan sepeda di setiap musim?
+2. Apakah suhu memengaruhi jumlah pengguna terdaftar pada hari kerja dibandingkan hari libur?
+
+---
+
+## **3. Struktur Folder**
+Berikut adalah struktur folder proyek ini:
