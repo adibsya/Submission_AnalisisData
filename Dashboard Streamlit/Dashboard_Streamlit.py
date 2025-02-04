@@ -12,6 +12,7 @@ df['dteday'] = pd.to_datetime(df['dteday'])  # Konversi kolom tanggal
 
 # Sidebar untuk filter data
 st.sidebar.header("Filter Data")
+
 start_date = st.sidebar.date_input('Tanggal Mulai', df['dteday'].min())
 end_date = st.sidebar.date_input('Tanggal Akhir', df['dteday'].max())
 
@@ -34,6 +35,7 @@ st.write(filtered_df.head())
 st.subheader("Pengaruh Kondisi Cuaca terhadap Penyewaan Sepeda")
 season_map = {1: 'Spring', 2: 'Summer', 3: 'Fall', 4: 'Winter'}
 weather_map = {1: 'Good Weather', 2: 'Misty/Cloudy', 3: 'Light Rain/Snow', 4: 'Heavy Rain/Snow'}
+
 filtered_df['season'] = filtered_df['season'].map(season_map)
 filtered_df['weathersit'] = filtered_df['weathersit'].map(weather_map)
 
