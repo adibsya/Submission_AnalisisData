@@ -29,8 +29,8 @@ pip install -r requirements.txt
 ### **Langkah 2: Jalankan Dashboard**
 Jalankan file `dashboard_app.py` menggunakan perintah berikut:
 - masuk ke direktori Dashboard Streamlit dengan ketik : cd '.\Dashboard Streamlit\'
-jalankan dulu virtual environment : .\.venv\Scripts\activate.ps1 (jika pakai powershel) 
-lalu jalankan : streamlit run ./dashboard_app.py
+- jalankan dulu virtual environment : .\.venv\Scripts\activate.ps1 (jika pakai powershel) 
+- lalu jalankan : streamlit run ./dashboard_app.py
 
 
 ### **Langkah 3: Interaksi dengan Dashboard**
@@ -74,5 +74,5 @@ Proyek ini menggunakan teknologi berikut:
 ## **8. Kontributor**
 - Nama: Ahmad Adib Syaifulloh
 - Email: ahmadadibsyaifulloh@gmail.com
-- Username: adib_syaa
+- github: adibsya
 
