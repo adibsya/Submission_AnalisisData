@@ -27,7 +27,7 @@ pip install -r requirements.txt
 text
 
 ### **Langkah 2: Jalankan Dashboard**
-Jalankan file `dashboard.py` menggunakan perintah berikut:
+Jalankan file `Dashboard_Streamlit.py` menggunakan perintah berikut:
 streamlit run dashboard/dashboard.py
 text
 
