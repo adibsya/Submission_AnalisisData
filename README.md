@@ -24,12 +24,14 @@ Dashboard interaktif dibuat menggunakan **Streamlit**. Ikuti langkah-langkah ber
 ### **Langkah 1: Instalasi Dependensi**
 Pastikan semua library yang diperlukan telah diinstal. Gunakan perintah berikut untuk menginstal dependensi:
 pip install -r requirements.txt
-text
+
 
 ### **Langkah 2: Jalankan Dashboard**
 Jalankan file `dashboard_app.py` menggunakan perintah berikut:
-streamlit run Dashboard/Dashboard_Streamlit.py
-text
+- masuk ke direktori Dashboard Streamlit dengan ketik : cd '.\Dashboard Streamlit\'
+jalankan dulu virtual environment : .\.venv\Scripts\activate.ps1 (jika pakai powershel) 
+lalu jalankan : streamlit run ./dashboard_app.py
+
 
 ### **Langkah 3: Interaksi dengan Dashboard**
 Setelah dijalankan, dashboard akan terbuka di browser Anda. Anda dapat menggunakan berbagai filter (seperti rentang tanggal, suhu, kelembaban) untuk mengeksplorasi data.
